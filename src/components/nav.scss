@@ -1,0 +1,35 @@
+.navigation {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(99, 194, 162);
+   justify-content: space-between;
+    margin-bottom: 50px;
+  
+    .logo{
+      
+      width: 10px;
+      padding-left:25px;
+      font-family: sans-serif;
+      color: beige;
+      
+      text-decoration:underline;
+    }
+  
+    .nav-links-container {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .nav-link {
+        padding: 10px 15px;
+        cursor: pointer;
+        font-style: bold;
+        font-size: 20px;
+        
+        color: black;
+      }
+    }
+  }

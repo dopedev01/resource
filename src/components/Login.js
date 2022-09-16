@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Home from "./Home";
+import Nav from "./Nav";
 import './form.css'
 
 function Login() {
@@ -19,10 +20,15 @@ function Login() {
         console.log(inputs);
         if (inputs.email === "admin@gmail.com" && inputs.password === '123456') {
             setisLogin(true)
+             
+            
+
 
 
         } else {
-             alert("wrong")
+             alert("wrong credentials")
+               
+              
         }
 
     }
@@ -30,6 +36,7 @@ function Login() {
     return (
         <div>
             {!isLogin ?
+            
             <div className="form">
              <h1>Admin Login</h1>
                 <form onSubmit={handle}>
@@ -54,7 +61,7 @@ function Login() {
                 <button id="btn" onClick={handle}>Login</button>
             </form> </div> 
             :
-           <Home/>}
+           <Nav/>}
 
 
 

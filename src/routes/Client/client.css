@@ -1,0 +1,11 @@
+ .tab{
+     
+    font-size: larger;
+     margin-bottom:10px;
+    border: 10px;
+    margin-left: 250px;
+ 
+ }
+ table,th,td{
+    border-style: groove;
+ }
