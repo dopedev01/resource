@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Card from './Card';
+import ProductData from './ProductData';
+ 
 
-function Products() {
-  return (
-    <div><h1>product</h1></div>
-  )
-}
-
-export default Products
+const Products=()=>{
+ 
+        return (
+            
+            <div className='card-list' > 
+                 
+                {ProductData.map((n)=><Card key={n.id} name={n.name} img={n.im} amount={n.amt}></Card>)}
+                 </div>
+        )
+    }
+export default Products;

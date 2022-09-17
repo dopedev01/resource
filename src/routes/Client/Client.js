@@ -1,6 +1,8 @@
 import React from 'react'
 import ClientData from './Clientdata'
-import './client.css';
+import './client.scss';
+ 
+
 export default function Client() {
     const Display = ClientData.map((info) => {
         return (
@@ -18,6 +20,7 @@ export default function Client() {
     })
     return (
         <div className='tab'>
+           <h3>CLIENT_DETAILS</h3> 
             <table >
                 <thead>
                     <tr>

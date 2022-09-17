@@ -1,0 +1,52 @@
+.cd {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  #rent-btn{
+    width: 40%;
+    background-color: #060f14;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  #rent-btn:hover{
+    
+    width: 40%;
+    color: #030101;
+   background-color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid;
+    border-radius: 4px;
+    cursor: pointer;
+  
+}
+  .cd:hover {
+    transform: scale(1.05);
+  }
+  
+  
+.card-list{
+    width: 85vw;
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.c{
+    display: flex;
+    margin-left: 30px;
+}
